@@ -1,0 +1,39 @@
+body{overflow: hidden;}
+.menu{height:4%;
+      width: 30%;
+      left: 35%;
+      position: fixed;
+      z-index: 100;
+      display:flex;
+      justify-content: center;
+      opacity: 0;
+      top:0;
+      border-radius:0 0 1000px 1000px ;
+      }
+.fon{position: fixed;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+            }
+.importflex{display: flex;
+            position: absolute;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 100px;;
+            top:4.5%;
+            left:5%;
+            width: 90%;
+            height: 95%;
+            padding-top:70px;
+            justify-content: center;
+            align-items: center; 
+            }
+
+.box{z-index: 0;
+     width: 344px;
+     height: 427px;}
+.box:hover{transform: scale(1.05,1.05);
+           box-shadow: 0 0 20px red;
+           transition-duration: 1s;}
