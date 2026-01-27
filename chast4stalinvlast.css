@@ -1,0 +1,141 @@
+body{overflow-x: hidden;}
+.menuglav{height:4%;
+      width: 30%;
+      left: 35%;
+      position: fixed;
+      z-index: 100;
+      display:flex;
+      justify-content: center;
+      opacity: 0;
+      top:0;
+      border-radius:0 0 1000px 1000px ;
+      }
+.audio{margin: 30px;
+       position: relative;}
+.buttonRadioPlay{border: none;
+                 width: 10%;
+                 top:270px;
+                 left: 225px;
+                 position: absolute;
+                 z-index: 100;}
+.buttonRadioPlay:hover{transition-duration: 0.5;
+                       transform: scale(1.25,1.25);}
+.buttonRadioNew{border: none;
+                top:268px;
+                position: absolute;
+                left: 583px;}
+.buttonRadioNew:hover{transition-duration: 0.5s;
+                      transform: scale(1.25,1.25);}
+h3{font-size: 30px;
+   color: wheat;}
+.fon{position: fixed;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+            }
+.buttonmenu{width: 10mm;
+            height: 10mm;
+            border-radius: 50%;
+            margin-left:10px;
+            margin-right:10px;
+            margin-top: 2px;
+            border: none;
+            background: none;
+            border: none;}
+
+.buttonmenu:hover{text-shadow:0 0 3px red;
+                  transition-duration: 0.5s;}
+.buttonmenuflag{padding: 0;
+                border: none;
+                background: none;
+                cursor: pointer;
+                margin-top: 2px;}
+.buttonmenuflag img{display: block;
+                    width: 100%;
+                    height: auto;}
+.buttonmenuflag:hover{box-shadow:0 0 10px red ;}
+.text{display: inline-block;
+     border-style:solid;
+     border-width: 5px;
+     justify-content: center;
+     border-radius: 30px;
+     border-color: transparent;
+     background:linear-gradient(#480607,#480607)padding-box, linear-gradient(to right,#8B0000,#B22222,#CD2F2F,#DC3434) ;
+     opacity:1;
+     position:static;
+     text-align: center;
+     padding:20px;
+     margin-bottom: 20px;}
+.formtext{margin-top:10px ;
+          padding: 5px;
+          width: 910px;
+          color:black;
+          font-size: 25px;
+          border-style:solid;
+          border-width: 4px;
+          border-radius: 25px;
+           border-color: transparent;
+          line-height: 135%;
+          background:linear-gradient(#E9E0C1,#E9E0C1)padding-box, linear-gradient(to right,#8B0000,#B22222,#CD2F2F,#DC3434)}
+.formtext:hover{transform: scale(1.03,1.03);
+          transition-duration: 1s;}
+     h2{color:wheat}
+p{text-align: left;}
+.osnova{display: flex;
+    position: absolute;
+    flex-direction: column; 
+    align-items: center; 
+    top: 4%;
+    left: 0;
+    width: 100%;
+    min-height: 95%;
+    padding: 0 10%; 
+    box-sizing: border-box;
+}
+.text:hover{transform:scale(1.03,1.03);
+            transition-duration: 0.5s;
+            box-shadow:0 0 60px red ;}
+button{color:white;
+               width:40px;
+               height: 33px;
+               border-width: 2px;
+               background-color: transparent;
+               padding:1px;
+               font-weight: bolder;
+               border-radius: 5px;
+               border-color: white;
+               transition-duration: 0.5s;
+               outline: none;}
+
+.dopinfo{position: fixed;
+         display: inline-block;
+         opacity:0;
+         transition-duration: 1s;
+         width: 300px;
+         padding-bottom: 20px;
+         padding-top: 20px;
+         top:25%;
+         left: 5%;
+         color:wheat;
+         border-style: solid;
+         font-size: 20px;
+         border-width:5px;
+         border-radius: 15px;
+         border-color: transparent;
+         background:linear-gradient(#480607,#480607)padding-box, linear-gradient(to right,#8B0000,#B22222,#CD2F2F,#DC3434);
+         text-align: center;
+         justify-content: center;
+         }
+.textdop{color:black;
+         white-space: nowrap;
+         display: inline-block;}
+
+@keyframes poavlenie{
+     from{opacity:0;}
+     to{opacity: 1;}
+     
+}
+.imgtext:hover{transform: scale(1.03,1.03);
+         transition-duration: 1s;}
