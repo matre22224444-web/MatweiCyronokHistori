@@ -52,14 +52,14 @@ body{overflow-x: hidden;}
 .formtext{margin-top:10px ;
           padding: 5px;
           width: 910px;
-          color:wheat;
+          color:black;
           font-size: 25px;
           border-style:solid;
           border-width: 4px;
           border-radius: 25px;
            border-color: transparent;
           line-height: 135%;
-          background:linear-gradient(#5a0809,#5a0809)padding-box, linear-gradient(to right,#8B0000,#B22222,#CD2F2F,#DC3434)}
+          background:linear-gradient(#E9E0C1,#E9E0C1)padding-box, linear-gradient(to right,#8B0000,#B22222,#CD2F2F,#DC3434)}
 .formtext:hover{transform: scale(1.03,1.03);
           transition-duration: 1s;}
      h2{color:wheat}
@@ -108,7 +108,7 @@ button{color:white;
          text-align: center;
          justify-content: center;
          }
-.textdop{color:wheat;
+.textdop{color:black;
          white-space: nowrap;
          display: inline-block;}
 
@@ -118,4 +118,5 @@ button{color:white;
      
 }
 .imgtext:hover{transform: scale(1.03,1.03);
+
          transition-duration: 1s;}
