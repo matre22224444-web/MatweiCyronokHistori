@@ -62,7 +62,7 @@ body{overflow-x: hidden;}
           background:linear-gradient(#E9E0C1,#E9E0C1)padding-box, linear-gradient(to right,#8B0000,#B22222,#CD2F2F,#DC3434)}
 .formtext:hover{transform: scale(1.03,1.03);
           transition-duration: 1s;}
-     h2{color:black}
+     h2{color:wheat}
 p{text-align: left;}
 .osnova{display: flex;
     position: absolute;
@@ -120,4 +120,5 @@ button{color:white;
 .imgtext:hover{transform: scale(1.03,1.03);
 
          transition-duration: 1s;}
+
 
