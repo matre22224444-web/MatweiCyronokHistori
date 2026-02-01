@@ -28,7 +28,8 @@ body{overflow-x: hidden;}
      opacity:1;
      position:static;
      text-align: center;
-     padding:20px;}
+     padding:20px;
+     margin-botton:20px}
 .formtext{margin-top:10px ;
           padding: 5px;
           width: 910px;
@@ -101,3 +102,4 @@ button{background: none;
             left: 0;
             opacity: 0;
             }
+
