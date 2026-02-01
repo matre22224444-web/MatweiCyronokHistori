@@ -1,4 +1,4 @@
-body{overflow: hidden;}
+body{overflow-x: hidden;}
 .menu{height:4%;
       width: 30%;
       left: 35%;

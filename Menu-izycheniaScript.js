@@ -1,36 +1,73 @@
 const menu=document.getElementById("menuglav")
-menu.addEventListener('mouseover',function(event){
-    menu.style.transitionDuration="1s"
-    menu.style.opacity="1"
-    menu.style.background='linear-gradient(180deg, ' +
-    'rgba(255, 40, 40, 0.65) 0%, ' +      
-    'rgba(255, 60, 60, 0.45) 30%, ' +   
-    'rgba(255, 80, 80, 0.25) 60%, ' +     
-    'rgba(255, 100, 100, 0.12) 85%, ' +   
-    'transparent 100%)';
-
+const black1=document.getElementById("black")
+const buttonhouse=document.getElementById("buttonhouse1")
+const buttonlangimg=document.getElementById("butlangerimg")
+const buttonrazimg=document.getElementById("buttonrazimg1")
+menu.addEventListener('mouseover', function(event) {
+    menu.style.transitionDuration = "1s"
+    menu.style.opacity = "1"
+    black1.style.zIndex="50"
+    black1.style.transitionDuration="1s"
+    black1.style.opacity="0.9"
 })
 
-menu.addEventListener('mouseout',function(event){
-    menu.style.transitionDuration="1s"
-    menu.style.opacity="0"
-    
+menu.addEventListener('mouseout', function(event) {
+    menu.style.transitionDuration = "1s"
+    menu.style.opacity = "0"
+    black1.style.zIndex="0"
+    black1.style.opacity="0"
 })
+buttonhouse.addEventListener('mouseover', function(event){
+    buttonhouse.src="infoObsh/houseon.svg"
+})
+buttonhouse.addEventListener('mouseout', function(event){
+    buttonhouse.src="infoObsh/house.svg"
+})
+buttonlangimg.addEventListener('mouseover', function(event){
+    buttonlangimg.src="infoObsh/RUSON.svg"
+})
+buttonlangimg.addEventListener('mouseout', function(event){
+    buttonlangimg.src="infoObsh/RUS.svg"
+})
+
 
 const raz=document.getElementById("buttonraz")
 raz.addEventListener('click',function(event){
-    if(raz.textContent==="1"){
-
+    if(buttonrazimg.src.includes("infoObsh/raz1on.svg")){
         menu.style.left="0"
-        raz.textContent="2"
+        buttonrazimg.src="infoObsh/raz2.svg"
     }
-    else if(raz.textContent==="2"){
+    else if(buttonrazimg.src.includes("infoObsh/raz2on.svg")){
         menu.style.left="70%"
-        raz.textContent="3"
+        buttonrazimg.src="infoObsh/raz3.svg"
     }
-    else if(raz.textContent==="3"){
+    else if(buttonrazimg.src.includes("infoObsh/raz3on.svg")){
         menu.style.left="35%"
-        raz.textContent="1"
+        buttonrazimg.src="infoObsh/raz1.svg"
+    }
+})
+
+buttonrazimg.addEventListener("mouseover",function(event){
+    if(buttonrazimg.src.includes("infoObsh/raz1.svg")){
+        buttonrazimg.src="infoObsh/raz1on.svg"
+    }
+    else if(buttonrazimg.src.includes("infoObsh/raz2.svg")){
+        buttonrazimg.src="infoObsh/raz2on.svg"
+    }
+    else if(buttonrazimg.src.includes("infoObsh/raz3.svg")){
+        buttonrazimg.src="infoObsh/raz3on.svg"
+    }
+})
+
+buttonrazimg.addEventListener("mouseout",function(event){
+    if(buttonrazimg.src.includes("infoObsh/raz1on.svg")){
+        buttonrazimg.src="infoObsh/raz1.svg"
+    }
+    else if(buttonrazimg.src.includes("infoObsh/raz2on.svg")){
+        buttonrazimg.src="infoObsh/raz2.svg"
+    }
+    else if(buttonrazimg.src.includes("infoObsh/raz3on.svg")){
+        buttonrazimg.src="infoObsh/raz3.svg"
     }
 })
 
@@ -44,6 +81,7 @@ but1.addEventListener("mouseover", function(event){
     but2.style.filter="blur(5px)"
     but3.style.filter="blur(5px)"
     but1.style.zIndex="10"
+    but1.style.transitionDuration="1s"
 })
 but1.addEventListener("mouseout", function(event){
    but1.style.transform=""
@@ -59,6 +97,7 @@ but2.addEventListener("mouseover", function(event){
     but1.style.filter="blur(5px)"
     but3.style.filter="blur(5px)"
     but2.style.zIndex="10"
+    but2.style.transitionDuration="1s"
 })
 but2.addEventListener("mouseout", function(event){
    but2.style.transform=""
@@ -74,6 +113,7 @@ but3.addEventListener("mouseover", function(event){
     but1.style.filter="blur(5px)"
     but2.style.filter="blur(5px)"
     but3.style.zIndex="10"
+    but3.style.transitionDuration="1s"
 })
 but3.addEventListener("mouseout", function(event){
    but3.style.transform=""

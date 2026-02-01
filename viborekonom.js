@@ -79,7 +79,6 @@ buttonback1.addEventListener("mouseover",function(event){
 buttonback1.addEventListener("mouseout",function(event){
     buttonbackimg1.src="infoObsh/back.svg"
 })
-
 const but1=document.getElementById("button1")
 const but2=document.getElementById("button2")
 const but3=document.getElementById("button3")
