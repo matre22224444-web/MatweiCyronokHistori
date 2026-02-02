@@ -58,8 +58,7 @@ h2{font-size: 30px;
           border-radius: 25px;
            border-color: transparent;
           line-height: 135%;
-          background:linear-gradient(#E9E0C1,#E9E0C1)padding-box, linear-gradient(to right,#8B0000,#B22222,#CD2F2F,#DC3434)}s
-     h2{color:wheat}
+          background:linear-gradient(#E9E0C1,#E9E0C1)padding-box, linear-gradient(to right,#8B0000,#B22222,#CD2F2F,#DC3434)}
 p{text-align: left;}
 .osnova{display: flex;
     position: absolute;
@@ -117,5 +116,6 @@ button{background: none;
             left: 0;
             opacity: 0;
             }
+
 
 
