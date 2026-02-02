@@ -26,7 +26,7 @@ body{overflow-x: hidden;}
                 left: 581px;}
 .buttonRadioNew:hover{transition-duration: 0.5s;
                       transform: scale(1.25,1.25);}
-h3{font-size: 30px;
+h2{font-size: 30px;
    color: wheat;}
 .fon{position: fixed;
     top: 0;
@@ -117,4 +117,5 @@ button{background: none;
             left: 0;
             opacity: 0;
             }
+
 
