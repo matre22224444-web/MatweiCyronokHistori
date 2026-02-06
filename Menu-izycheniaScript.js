@@ -131,6 +131,7 @@ dop1.addEventListener("mouseover",function(event){
     dop1.style.transitionDuration="0.5s"
     dop1.style.color="red"
     info.style.animationDirection=""
+    info.style.zIndex="100"
 })
 
 dop1.addEventListener("mouseout", function(event){
